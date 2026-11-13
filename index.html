@@ -316,6 +316,7 @@
   .mock .row em{width:34px;height:7px;border-radius:4px;background:color-mix(in srgb,var(--accent) 80%,white);font-style:normal}
   .mock .title{height:12px;width:42%;border-radius:6px;background:rgba(255,255,255,.35)}
   .m-abax{background:linear-gradient(180deg,#1c140d,#130e0a)}
+  .m-deck{background:linear-gradient(180deg,#22101c,#120a14)}
   .m-zuzel{background:linear-gradient(180deg,#121a2c,#0b0f19)}
   .m-zuzel .helm{display:flex;gap:8px}
   .m-zuzel .helm i{flex:1;height:34px;border-radius:10px}
@@ -358,6 +359,7 @@
   .c-zuzel{--accent:#2f7cff;--accent2:#27c4d8;--cta1:#2a70e6;--cta2:#197f8c}
   .c-qardis{--accent:#13b5a6;--accent2:#5ad37b;--cta1:#0e8278;--cta2:#38834c}
   .c-ext{--accent:#7c5cff;--accent2:#d65cff;--cta1:#7758f5;--cta2:#a949c9}
+  .c-deck{--accent:#ff5c7c;--accent2:#d65cff;--cta1:#e04466;--cta2:#a949c9}
 
   /* ---------- footer ---------- */
   footer{
@@ -428,6 +430,23 @@
       <h2>Web Page Change Monitor</h2>
       <p data-i18n="d_ext">Rozszerzenie do Brave, Opera, Chrome, Edge. Monitoruje strony pod kątem zmian. Bez kont, serwerów pośredniczących i telemetrii, a analiza odbywa się lokalnie.</p>
       <span class="cta"><span data-i18n="open_gh">Zobacz na GitHubie</span> <span aria-hidden="true">→</span></span>
+    </a>
+
+    <a class="card c-deck reveal" href="https://k-d-s-z.github.io/DeckEngine/" target="_blank" rel="noopener">
+      <div class="shot">
+        <div class="bar" aria-hidden="true"><b></b><b></b><b></b><span>k-d-s-z.github.io/DeckEngine</span></div>
+        <div aria-hidden="true" class="mock m-deck">
+          <div class="title"></div>
+          <div class="row"><i></i><s></s><em></em></div>
+          <div class="row"><i></i><s></s><em></em></div>
+          <div class="row"><i></i><s></s><em></em></div>
+        </div>
+        <img src="img/decknegine.png" alt="Zrzut ekranu aplikacji DeckEngine" data-i18n-alt="alt_deck" width="1280" height="800" loading="lazy" decoding="async" onerror="this.remove()">
+      </div>
+      <div class="meta"><span class="tag" data-i18n="tag_web">Aplikacja web</span><span class="host">PWA</span></div>
+      <h2>DeckEngine</h2>
+      <p data-i18n="d_deck">Aplikacja webowa do obsługi talii trybu automy do gier planszowych. Szybkie generowanie talii (wycinanie kart bezpośrednio z plików PDF), dobieranie kart, tasowanie.</p>
+      <span class="cta"><span data-i18n="open">Otwórz</span> <span aria-hidden="true">→</span></span>
     </a>
 
     <a class="card c-abax reveal" href="https://k-d-s-z.github.io/abax-tracker/" target="_blank" rel="noopener">
@@ -517,10 +536,12 @@
       d_zuzel:"Intuicyjny program żużlowy do wpisywania wyników biegów, czasów, zmian i wykluczeń. Obsługuje tabelę biegową Ekstraligi oraz zawodów indywidualnych (SGP, SEC, IMP).",
       d_qardis:"Dziennik ciśnienia, tętna i wagi z wykresami trendów. Eksport do PDF i CSV oraz kopia zapasowa.",
       d_ext:"Rozszerzenie do Brave, Opera, Chrome, Edge. Monitoruje strony pod kątem zmian. Bez kont, serwerów pośredniczących i telemetrii, a analiza odbywa się lokalnie.",
+      d_deck:"Aplikacja webowa do obsługi talii trybu automy do gier planszowych. Szybkie generowanie talii (wycinanie kart bezpośrednio z plików PDF), dobieranie kart, tasowanie.",
       alt_abax:"Zrzut ekranu aplikacji Abax Tracker",
       alt_zuzel:"Zrzut ekranu aplikacji Program żużlowy",
       alt_qardis:"Zrzut ekranu aplikacji Qardis",
       alt_ext:"Zrzut ekranu rozszerzenia Web Page Change Monitor",
+      alt_deck:"Zrzut ekranu aplikacji DeckEngine",
       og_alt:"Cyfrowe drobiazgi: ikona z klockami tetrisa i napis o aplikacjach webowych oraz rozszerzeniach",
       og_locale:"pl_PL", og_locale_alt:"en_US"
     },
@@ -536,10 +557,12 @@
       d_zuzel:"An intuitive speedway program for entering heat results, times, substitutions and exclusions. Covers the Ekstraliga heat table and individual events (SGP, SEC, IMP).",
       d_qardis:"A log of blood pressure, heart rate and weight with trend charts. PDF and CSV export plus backup.",
       d_ext:"An extension for Brave, Opera, Chrome and Edge. Monitors web pages for changes. No accounts, no intermediary servers, no telemetry — analysis runs locally.",
+      d_deck:"A web app for handling automa-mode decks for board games. Fast deck generation (cutting cards directly from PDF files), card drawing, shuffling.",
       alt_abax:"Screenshot of the Abax Tracker app",
       alt_zuzel:"Screenshot of the Speedway Program app",
       alt_qardis:"Screenshot of the Qardis app",
       alt_ext:"Screenshot of the Web Page Change Monitor extension",
+      alt_deck:"Screenshot of the DeckEngine app",
       og_alt:"Digital knick-knacks: an icon of Tetris blocks and a caption about web apps and browser extensions",
       og_locale:"en_US", og_locale_alt:"pl_PL"
     }
